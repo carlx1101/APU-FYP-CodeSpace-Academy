@@ -781,12 +781,7 @@
 
                 <div class="dropdown-divider"></div>
 
-
-                <form method="POST" action="{{ route('logout') }}">
-                    @csrf
-                    <button class="dropdown-item" href="{{ route('logout') }}">Sign out</button>
-                </form>
-
+                <a class="dropdown-item" href="#">Sign out</a>
               </div>
             </div>
             <!-- End Account -->

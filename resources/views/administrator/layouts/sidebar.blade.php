@@ -40,17 +40,18 @@
 
             </div>
             <div id="navbarVerticalMenuPagesMenu">
-                
+
               <!-- Collapse -->
               <div class="nav-item">
                 <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuPagesCoursesMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesCoursesMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesCoursesMenu">
                   <i class="bi-people nav-icon"></i>
-                  <span class="nav-link-title">Courses</span>
+                  <span class="nav-link-title"> Category</span>
                 </a>
 
                 <div id="navbarVerticalMenuPagesCoursesMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenu">
-                  <a class="nav-link " href="./users.html">Overview</a>
-                  <a class="nav-link " href="./users-add-user.html">Add Course</a>
+                  <a class="nav-link " href="{{route('categories.index')}}">Overview</a>
+                  <a class="nav-link " href="{{route('categories.create')}}">Add Category</a>
+                  <a class="nav-link " href="">Add Subcategory</a>
                 </div>
               </div>
               <!-- End Collapse -->
